@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    In this way, it was very easy to indicate the error within a file. I was
+    already sure there was an error since the file was not running. Blablabla.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows you to more efficiently see what did eventually went wrong in the 
+    newer versions. In this way, excessive manual debugging is not necessary
+    in some cases.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    PRO: High flexibility; programmer understands better than computer when 
+    critical changes are done; ...
+    CON: You have to think about it; avoid too big or too small commits; ...
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git focusses on larger projects (mostly programming projects), where most of 
+    the time different files are linked with each other (as in the example).
+    Google Docs at the other hand focusses on a wider group of users and more
+    everyday problems (saving documents). Hereby, there are mostly no inter-
+    connected files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Like in the videos: git log to see an overview of all commits (id, comments, 
+    date and time). Git diff is then used to look to the difference between two
+    commits to see what's actually changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can easily go back in time before you made the risky changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For my master thesis and future projects.
